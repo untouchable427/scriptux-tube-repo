@@ -19,17 +19,17 @@ To keep the work understandable, any contributor or automation working in this r
 1. **Understand the request**
    - Read the issue or prompt first.
    - Identify the real requirement before touching any files.
-   - In this case, the requirement is to make the plan clear and explain the agent's actions in detail.
+   - Restate the requirement in simple terms before starting the implementation.
 
 2. **Inspect the repository**
    - Check which files already exist.
    - Look for source code, tests, or setup files before deciding what to change.
-   - In this repository, the README is currently the main place where the request can be implemented.
+   - If the repository is still mostly documentation, make the change there; if code exists, change the smallest relevant source files instead.
 
 3. **Choose the smallest complete change**
    - Avoid adding unnecessary files or tools.
    - Update only the parts of the repository that are needed to satisfy the request.
-   - Because this repository does not yet contain application code, a documentation update is the most accurate solution.
+   - Match the solution to the current request and the current state of the repository, whether that means documentation, scripts, tests, or source code.
 
 4. **Document the plan clearly**
    - Write the plan as ordered steps.
