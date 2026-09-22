@@ -12,38 +12,38 @@ This repository is currently a lightweight starting point, so the plan is intent
 4. Test the script steps in the terminal and confirm the expected output.
 5. Refine the instructions until someone else can follow them from start to finish.
 
-## What the GitHub agent is doing
+## How work should be carried out
 
-When the GitHub agent works on this repository, it should explain its actions in plain language so you can understand exactly what is happening:
+To keep the work understandable, any contributor or automation working in this repository should explain actions in plain language so it is clear what is happening:
 
 1. **Understand the request**
-   - The agent reads the issue or prompt first.
-   - It identifies the real requirement before touching any files.
+   - Read the issue or prompt first.
+   - Identify the real requirement before touching any files.
    - In this case, the requirement is to make the plan clear and explain the agent's actions in detail.
 
 2. **Inspect the repository**
-   - The agent checks which files already exist.
-   - It looks for source code, tests, or setup files before deciding what to change.
-   - In this repository, the README is the main place where the request can be implemented.
+   - Check which files already exist.
+   - Look for source code, tests, or setup files before deciding what to change.
+   - In this repository, the README is currently the main place where the request can be implemented.
 
 3. **Choose the smallest complete change**
-   - The agent avoids adding unnecessary files or tools.
-   - It updates only the parts of the repository that are needed to satisfy the request.
+   - Avoid adding unnecessary files or tools.
+   - Update only the parts of the repository that are needed to satisfy the request.
    - Because this repository does not yet contain application code, a documentation update is the most accurate solution.
 
 4. **Document the plan clearly**
-   - The agent writes the plan as ordered steps.
-   - Each step is described so you know both **what** happens and **why** it happens.
+   - Write the plan as ordered steps.
+   - Describe each step so readers know both **what** happens and **why** it happens.
    - This makes the repository easier to follow for future work.
 
 5. **Verify the result**
-   - The agent rereads the changed file to confirm the wording is clear.
-   - It checks that the change matches the request and does not introduce unrelated edits.
+   - Reread the changed file to confirm the wording is clear.
+   - Check that the change matches the request and does not introduce unrelated edits.
    - Since there is no test suite yet, manual verification of the documentation is the appropriate validation here.
 
 6. **Report progress**
-   - The agent records what has been completed and what is still pending.
-   - This gives you a traceable summary of the work instead of making silent changes.
+   - Record what has been completed and what is still pending.
+   - This gives readers a traceable summary of the work instead of silent changes.
 
 ## Expected next step
 
