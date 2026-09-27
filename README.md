@@ -6,7 +6,7 @@ Applying YouTube tutorials to be implemented in script form via terminal emulato
 
 **Purpose:** A Termux-based utility script that converts the steps from YouTube tutorials into a repeatable, menu-driven terminal workflow on Android.
 
-### Package contents (to be committed to the `Master` branch)
+### Package contents (to be committed to the `main` branch)
 | File | Description |
 |---|---|
 | `Scriptux-Tube.sh` | Main executable script (interactive menu: init Termux → install tools → clone/create script → chmod +x → run) |
